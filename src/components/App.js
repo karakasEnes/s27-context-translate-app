@@ -1,5 +1,5 @@
 import React from 'react';
-
+import UserCreate from './UserCreate';
 class App extends React.Component {
   constructor() {
     super();
@@ -24,7 +24,8 @@ class App extends React.Component {
             className='flag nl'
           />
         </div>
-        {this.state.language}
+
+        <UserCreate />
       </div>
     );
   }
