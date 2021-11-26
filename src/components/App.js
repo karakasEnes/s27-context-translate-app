@@ -1,6 +1,6 @@
 import React from 'react';
 import ColorContext from '../contexts/ColorContext';
-import { LanguageStore } from './LanguageContext';
+import { LanguageStore } from '../contexts/LanguageContext';
 import UserCreate from './UserCreate';
 import LanguageSelector from './LanguageSelector';
 
